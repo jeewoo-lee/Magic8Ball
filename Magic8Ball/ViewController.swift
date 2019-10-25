@@ -22,28 +22,28 @@ class ViewController: UIViewController {
         
         switch randomNumber {
         case 0:
-            showText.text! = "As I see it, yes."
+            showText.text = "As I see it, yes."
         
         case 1:
-            showText.text! = "Ask again later."
+            showText.text = "Ask again later."
         
         case 2:
-            showText.text! = "Better not tell you now."
+            showText.text = "Better not tell you now."
             
         case 3:
-            showText.text! = "Cannot predict now."
+            showText.text = "Cannot predict now."
             
         case 4:
-            showText.text! = "Concentrate and ask again."
+            showText.text = "Concentrate and ask again."
             
         case 5:
-            showText.text! = "Don't count on it."
+            showText.text = "Don't count on it."
             
         case 6:
-            showText.text! = "It is certain."
+            showText.text = "It is certain."
             
         default:
-            showText.text! = "It is decidedly so."
+            showText.text = "It is decidedly so."
         }
     }
     
